@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+
+.column {
+  
+  width: 50%;
+  padding: 10px;
+  height: 300px;
+}
+
+.column2 {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; 
+}
+
+.result{
+  position: absolute; 
+  left: 800px;
+  top: 80px;
+
+  width: 30%;
+  padding: 10px;
+  height: 600px;
+}
+
+
+
+</style>
+
+
+
+</head>
+<body>
+<center><h1>SUMMARY</h1></center>
+<div  class="column" style="background-color:#cd84f1;">
+    <h1><strong>Team 1</strong></h1>
+    <h2>Score Board</h2>
+    <h2>Score</h2>
+    <h2 id="score1"></h2>
+    
+</div>
+
+<div  class="column2" style="background-color:#32ff7e;">
+    <h1><strong>Team 2</strong></h1>
+    <h2>Score Board</h2>
+    <h2>Score</h2>
+    <h2 id="score2"></h2>
+    
+</div>
+
+<div class="result" style="background-color: #ffeaa7">
+	<center><h1><strong>Winner</strong></h1></center>
+	<center><h1 id="win"></h1></center>
+	<!-- <center><h2><strong>Score</strong></h2></center>
+	<center><h1 id="score"></h1></center> -->
+	<center><h2><strong>Won by Runs :</strong></h2></center>
+	<center><h1 id="runs"></h1></center>
+  <center><h2><strong>Man of the match</strong></h2></center>
+  <center><h2 id="Team"></h2></center>
+  <center><h2><strong>Player</strong></h2></center>
+  <center><h2 id="playerm"></h2></center>
+  <center><h2><strong>Score</strong></h2></center>
+  <center><h2 id="highscore"></h2></center>
+
+
+</div>
+<script type="text/javascript" src="summary.js"></script>
+</body>
+</html>
+
+
+
+
+
