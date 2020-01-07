@@ -1,6 +1,5 @@
-var object = {name:"RajiniKanth", age: 33, hasPets : false};
-for (let key in object){
-    if(object.hasOwnProperty(key)){
-      console.log(`${key}`)
-    }
- }
+var obj ={name: "RajiniKanth", age: 33, hasPets : false};
+for(let prop in obj)
+{
+	console.log(prop);
+}

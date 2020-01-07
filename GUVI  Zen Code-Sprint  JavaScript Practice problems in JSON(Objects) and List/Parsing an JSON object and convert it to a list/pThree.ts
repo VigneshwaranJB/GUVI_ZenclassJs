@@ -1,6 +1,9 @@
-var object = {name:"RajiniKanth", age: 33, hasPets : false};
-for (let key in object){
-    if(object.hasOwnProperty(key)){
-      console.log(`${key}:${object[key]}`)
-    }
- }
+let obj ={name: "RajiniKanth", age: 33, hasPets : false};
+let list = [];
+let i = 0;
+for(let prop in obj)
+{
+	list[list.length] = [prop, obj[prop]];
+    i+=1;
+}
+console.log(list);
