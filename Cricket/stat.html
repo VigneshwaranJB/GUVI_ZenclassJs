@@ -1,0 +1,225 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+        p{
+            margin-left:50px;
+        }
+        span{
+            margin-left:50px;
+        }
+        h2{
+            margin-left:100px;
+        }
+        </style>
+    <title>stat</title>
+</head>
+<body>
+    <body onload="matchResult()">
+
+        <div class="container">
+        
+         <div class="row">
+            <div class="col" align="center" id="result">
+                Match winner
+            </div>
+         </div>
+        
+         <div class="row">
+        
+            <div class="col-6">
+                <h4>Team India</h4>
+                <table class="table">
+                    <thead class="thead-dark">
+                            <tr>
+                            <th scope="col"></th>
+                            <th scope="col">Name</th>
+                            <th scope="col">Runs</th>
+                            <th scope="col">Balls</th>
+                            </tr>
+                    </thead>
+        
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td><a href="player1.html">Virat Kohli</a></td>
+                            <td id="r0">23</td>
+                            <td id="b0"></td>
+                            </tr>
+        
+                        <tr>
+                            <th scope="row">2</th>
+                            <td><a href="player2.html">Ajinkya Rahane</a></td>
+                            <td id="r1">2</td>
+                            <td id="b1"></td>
+                            </tr>
+        
+                        <tr>
+                            <th scope="row">3</th>
+                            <td><a href="player3.html">Rohit Sharma</a></td>
+                            <td id="r2">2</td>
+                            <td id="b2"></td>
+                            </tr>
+        
+                        <tr>
+                            <th scope="row">4</th>
+                            <td><a href="player4.html">Shikhar Dhawan</a></td>
+                            <td id="r3">2</td>
+                            <td id="b3"></td>
+                            </tr>
+        
+                        <tr>
+                            <th scope="row">5</th>
+                            <td><a href="player5.html">K. L. Rahul</a></td>
+                            <td id="r4">2</td>
+                            <td id="b4"></td>
+                            </tr>
+        
+                        <tr>
+                            <th scope="row">6</th>
+                            <td><a href="player6.html">Shubman Gill</a></td>
+                            <td id="r5">2</td>
+                            <td id="b5"></td>
+                            </tr>
+        
+                        <tr>
+                            <th scope="row">7</th>
+                            <td><a href="player7.html">Shreyas Iyer</a></td>
+                            <td id="r6">2</td>
+                            <td id="b6"></td>
+                            </tr>
+                    
+                        <tr>
+                            <th scope="row">8</th>
+                            <td><a href="player8.html">Shivam Dube</a></td>
+                            <td id="r7">2</td>
+                            <td id="b7"></td>
+                            </tr>
+        
+                        <tr>
+                            <th scope="row">9</th>
+                            <td><a href="player9.html">Dinesh Karthik</a></td>
+                            <td id="r8">2</td>
+                            <td id="b8"></td>
+                            </tr>
+        
+                        <tr>
+                            <th scope="row">10</th>
+                            <td><a href="player10.html">Washington Sundar</a></td>
+                            <td id="r9">2</td>
+                            <td id="b9"></td>
+                            </tr>
+        
+                        <tr>
+                            <th scope="row"></th>
+                            <td align="right">Total</td>
+                            <td id="t1"></td>
+                            <td></td>
+                            </tr>
+                    </tbody>
+                </table>
+        
+        
+        
+                    
+            </div>
+        
+            <div class="col-6">
+                <h4>Team Australia</h4>
+                <table class="table">
+                    <thead class="thead-dark">
+                            <tr>
+                            <th scope="col"></th>
+                            <th scope="col">Name</th>
+                            <th scope="col">Runs</th>
+                            <th scope="col">Balls</th>
+                            </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>David Warner</td>
+                            <td id="rr0">23</td>
+                            <td id="bb0"></td>
+                            </tr>
+        
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Shaun Marsh</td>
+                            <td id="rr1">2</td>
+                            <td id="bb1"></td>
+                            </tr>
+        
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>David Hussey</td>
+                            <td id="rr2">2</td>
+                            <td id="bb2"></td>
+                            </tr>
+        
+                        <tr>
+                            <th scope="row">4</th>
+                            <td>Steve Smith</td>
+                            <td id="rr3">2</td>
+                            <td id="bb3"></td>
+                            </tr>
+        
+                        <tr>
+                            <th scope="row">5</th>
+                            <td>Steve Smith</td>
+                            <td id="rr4">2</td>
+                            <td id="bb4"></td>
+        f                   </tr>
+        
+                        <tr>
+                            <th scope="row">6</th>
+                            <td>Pat Cummins</td>
+                            <td id="rr5">2</td>
+                            <td id="bb5"></td>
+                            </tr>
+        
+                        <tr>
+                            <th scope="row">7</th>
+                            <td>Glenn Maxwell</td>
+                            <td id="rr6">2</td>
+                            <td id="bb6"></td>
+                            </tr>
+                    
+                        <tr>
+                            <th scope="row">8</th>
+                            <td>Aaron Finch</td>
+                            <td id="rr7">2</td>
+                            <td id="bb7"></td>
+                            </tr>
+        
+                        <tr>
+                            <th scope="row">9</th>
+                            <td>Usman Khawaja</td>
+                            <td id="rr8">2</td>
+                            <td id="bb8"></td>
+                            </tr>
+        
+                        <tr>
+                            <th scope="row">10</th>
+                            <td>Marcus Stoinis</td>
+                            <td id="rr9">2</td>
+                            <td id="bb9"></td>
+                            </tr>
+                    
+                        <tr>
+                            <th scope="row"></th>
+                            <td align="right">Total</td>
+                            <td id="t2"></td>
+                            <td></td>
+                            </tr>
+                    </tbody>
+                </table>
+            </div>
+         </div>
+        
+        </div>
+</body>
+<script src="stat.js"></script>
+</html>
